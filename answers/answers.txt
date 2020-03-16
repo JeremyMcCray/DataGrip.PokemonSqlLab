@@ -1,0 +1,27 @@
+1.)What are all the types of pokemon that a pokemon can have?
+SELECT DISTINCT * FROM types;
+
+2.)What is the name of the pokemon with id 45?
+SELECT * FROM pokemons WHERE id = 45;
+
+3.)How many pokemon are there?
+SELECT * FROM pokemon - 656;
+
+4.)How many types are there?
+SELECT DISTINCT * FROM TYPES; - 18;
+
+5.)How many pokemon have a secondary type?
+SELECT COUNT(*) FROM pokemon WHERE secondary_type IS NOT NULL;
+
+
+6.)What is each pokemon's primary type?
+SELECT primary_types FROM pokemons;
+
+7.)What is Rufflet's secondary type?
+SELECT DISTINCT FROM pokemons WHERE name = 'Rufflet';
+
+8).What are the names of the pokemon that belong to the trainer with trainerID 303?
+SELECT DISTINCT * FROM pokemon_trainer WHERE trainerID = 303;
+
+9.) How many pokemon have a secondary type Poison
+SELECT DISTINCT COUNT(*) FROM pokemon WHERE secondary_type = 'Poison';
