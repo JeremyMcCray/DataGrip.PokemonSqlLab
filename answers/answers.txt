@@ -25,3 +25,5 @@ SELECT DISTINCT * FROM pokemon_trainer WHERE trainerID = 303;
 
 9.) How many pokemon have a secondary type Poison
 SELECT DISTINCT COUNT(*) FROM pokemon WHERE secondary_type = 'Poison';
+
+10.)What is each pokemon's primary type?
